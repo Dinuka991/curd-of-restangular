@@ -1,0 +1,1 @@
+# curd-of-restangular
