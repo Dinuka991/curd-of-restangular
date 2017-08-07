@@ -1,0 +1,11 @@
+{
+  "name" : "Curd-Application",
+  "description" : "This is frontend of curd application.",
+  "homepage" : "http://documentcloud.github.com/underscore/",
+  "keywords" : ["util", "functional", "server", "client", "browser"],
+  "author" : "Darshana Ekanayake <dinukaekanayake17@gmail.com>",
+  "contributors" : [],
+  "dependencies" : [],
+  "main" : "app.js",
+  "version" : "0.1"
+}

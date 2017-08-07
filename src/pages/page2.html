@@ -1,0 +1,39 @@
+<div class="raw">
+    <div class="col-sm-5">
+        <!--form-->
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Add Details</h3>
+            </div>
+            <div class="panel-body">
+                <form ng-submit="addDetails(addCtrl.newUserDetails)">
+                    <div class="form-group">
+                        <label for="email">First name</label>
+                        <input type="email" class="form-control" id="firstName" ng-model="addCtrl.newUserDetails.firstName" placeholder="Insert your first name">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="password" class="form-control" id="LastName" ng-model="addCtrl.newUserDetails.lastName" placeholder="Insert your last name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="password" class="form-control" id="email" ng-model="addCtrl.newUserDetails.email" placeholder="Insert your emil">
+                    </div>
+                    <div class="form-group">
+                        <label>Telephone</label>
+                        <input type="password" class="form-control" id="telephoneNumber" ng-model="addCtrl.newUserDetails.telephoneNumber" placeholder="Insert your telephone number">
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!--alerts-->
+        <br>
+        <div class="alert alert-success">
+            <strong>Added!</strong>
+        </div>
+        <div class="alert alert-danger">
+            <strong>Can not save!</strong>
+        </div>
+    </div>
+</div>
